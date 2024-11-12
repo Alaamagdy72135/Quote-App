@@ -1,0 +1,41 @@
+body {
+  font-family: "Alegreya Sans", sans-serif;
+  text-align: center;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #da22ff 0%,
+    #9733ee 51%,
+    #da22ff 100%
+  );
+}
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.header {
+  background: url(../images/bg.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.card {
+  box-shadow: rgba(151, 195, 240, 0.2) 0px 8px 24px;
+}
